@@ -1,1 +1,58 @@
-yee-yee
+.container {
+  background-color: grey;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  width: 600px;
+  justify-content: space-between;
+}
+
+nav {
+  padding-top: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.rightnav {
+  justify-content: flex-end;
+}
+
+.navbar .logo {
+  display: flex;
+  padding: 40px 10px 30px 45px;
+}
+
+.navbar h2 {
+  padding: 22px 10px 30px 3px;
+}
+
+.firstscene .content {
+  display: flex;
+  flex-direction: column;
+  padding: 85px 0 250px 100px;
+}
+
+.firstscene {
+  background-image: url(lion.jpg);
+  background-repeat: no-repeat;
+  background-position: 13% 59%;
+  color: white;
+}
+
+.maintitle h1 {
+  font-size: 60px;
+  /* font-weight: 600; */
+}
